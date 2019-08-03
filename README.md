@@ -11,14 +11,9 @@
 
 ## 1. Arquitectura
 
-Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. 
+### Diagrama de flujo
 
-Las redes sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos no podemos vivir sin ellas.
-
-Pueden tener muchas funcionalidades integradas. 
-La solución a la problematica de Frida, emprendedora de Victoria 147, es crear una plataforma que favorezca el trueque entre particulares con tecnologías disruptivas y que permitan la transparencia de los intercambios con seguridad y velocidad.
-
-Las propuestas de valor son:
+Hemos creado el siguiente [Diagrama de flujo](https://www.lucidchart.com/documents/edit/79aa1cfa-2945-4a01-a3ab-598c0689df14/0?beaconFlowId=FFBF2194926340A5) para explicar claramente como queremos que el usuario utilice el producto con base en las propuestas de valor presentadas como "Historias de usuario", que son:
 
 1. Que los usuarixs puedan hacer un registro y elijan el perfil con el que van a interactuar:
 
@@ -42,16 +37,22 @@ y/o
 
 5. Que el usuario pueda emitir una tarjeta virtual con código QR en la que su dinero pueda ser utilizado para realizar los trueques.
 
-Hemos creado el siguiente ![Diagrama de flujo]() para explicar claramente como queremos que el usuario utilice el producto. 
-
-
-
 ## 2. Roadmap de seguridad
 
+Seguiremos la recomendaciones de IBM las cuales pueden ser consultada en el siguiente video: 
 
-## 3. Objetivos de aprendizaje
+"[The IBM Security Immune System](https://www.youtube.com/watch?v=UUil205ZzmU)"
 
-El objetivo principal de aprendizaje de este proyecto es construir una
-**[Single-page Application (SPA)](https://es.wikipedia.org/wiki/Single-page_application), 
-[_responsive_](https://github.com/Laboratoria/curricula-js/tree/master/topics/css/02-responsive)**
- (con más de una vista / página) en la que podamos **leer y escribir datos.**
+![IBMimg](img/IBMSecurity.png)
+
+En el primer alcance, unicamente por cuestión de tiempo se usarán los servicios de autenticación de Firebase.
+
+## 3. Resumen de la solución
+
+Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, etc. 
+
+Las redes sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos no podemos vivir sin ellas.
+
+Pueden tener muchas funcionalidades integradas. 
+La solución a la problematica de Frida, emprendedora de Victoria 147, es crear una plataforma que favorezca el trueque entre particulares con tecnologías disruptivas y que permitan la transparencia de los intercambios con seguridad y velocidad.
+
