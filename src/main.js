@@ -14,14 +14,14 @@ let welcomeRegister = document.getElementById('welcome-register-button').addEven
     Swal.fire({
         title: '<i><img src="/img/user_imgb.png" alt="imgDeUsuario" width="100" height="auto"></i>',
         html:
-          '<button class="btn btn-light"><img src="/img/google_icon-icons.com_62736.ico" title="Ingresa con Google" width="50" height="auto"></button>' + '<br>' +
-          '<button class="btn btn-light"><img src="/img/fb_icon-icons.com_66689.ico" title="Ingresa con Facebook" width="50" height="auto"></button>'+ '<br>' + '<br>' +
-          '<input type="email" placeholder="Email">' + '<br>' +
-          '<input type="password" placeholder="Password">' + '<br>'+ '¿Olvidaste tu contraseña?' + '<br>' + '<button class="btn-warning">Registrate</button>',
+          '<button class="btn btn-light"><img src="/img/google_icon-icons.com_62736.ico" title="Ingresa con Google" width="50" height="auto"></button>' +
+          '<button class="btn btn-light"><img src="/img/fb_icon-icons.com_66689.ico" title="Ingresa con Facebook" width="70" height="auto"></button>'+ '<br>' + '<br>' + '<input type="placeholder" id="registrerName" class="registrer-Name" placeholder="Ingresa tu nombre">' +
+          '<input type="placeholder" id="registrerMail" class="registrer-Mail" placeholder="@">' + '<br>' +
+          '<input type="password" id="registrerPassword" class="registrer-Password" placeholder="Contraseña 6 digitos"' + '<br>' + '<br>' + '¿Olvidaste tu contraseña?' + '<br>' + '<button id="registrerSend" class="registrer-Send">Registrate</button>',
         showCloseButton: true,
-        focusConfirm: false,
+        focusConfirm: true,
         confirmButtonText:
-          '<i class="fa fa-thumbs-up"></i> Acceder!',
+          '<button id="registrerSend" class="registrer-Send">Registrate</button>',
         confirmButtonAriaLabel: 'Registrate!',
       })
 });
