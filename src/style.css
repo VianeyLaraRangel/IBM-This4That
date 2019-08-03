@@ -8,9 +8,6 @@
     height: 3em;
 }
 
-.hide {
-    display: none;
-}
 /*Primera sección (logo)*/
 .principal-screen {
     display: flex;
@@ -23,4 +20,24 @@
 
 .btn-lightb {
     background-color: #EC4C4C;
+}
+
+.registro-text {
+    margin-bottom: 1em;
+}
+.registrer-User {
+    text-align: center;
+}
+
+.buttons-bienvenida{
+    margin: .5em .5em .5em .5em;
+}
+
+.registrer-send-button {
+    display: flex;
+    justify-content: center;
+    margin: .5em .5em 3em .5em}
+/*Efectos*/
+.hide {
+    display: none;
 }

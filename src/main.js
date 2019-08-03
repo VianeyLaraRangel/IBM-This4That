@@ -10,12 +10,24 @@ const screenRegistrer =document.getElementById('registrerUser');
 const screenLogin = document.getElementById('loginUser');
 const buttonLogout = document.getElementById('logoutButton');
 //Vianey pantalla de bienvenida
-let welcomeRegister = document.getElementById('welcome-register-button');
+const welcomeRegister = document.getElementById('welcome-register-button');
 
-welcomeRegister.addEventListener('click', ()=> {
+const dataBank = document.getElementById('enter-databank');
+
+welcomeRegister.addEventListener('click', () => {
     buttonsPresentation.style.display = "none";
     textPresentation.style.display = "none";
-    registrerUser.style.display = "none";
+    loginUser.style.display = "none";
+
+    registerSection.style.display = "block";
+});
+
+dataBank.addEventListener('click', () => {
+    Swal.fire({
+        title: '<img src="/img/registroTarjeta.png" alt="imagenTarjeta" class="img-fluid registrer-Send" alt="Responsive image">',
+        confirmButtonText:
+          '¡Entendido!',
+      })
 });
 
 const registrar = () => {

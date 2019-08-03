@@ -42,21 +42,51 @@
             </p>
         </p>
         <div id="buttonsPresentation">
-            <button class="btn btn-lightb" id="welcome-register-button">¡EMPEZAR A TRUEQUEAR!</button>
-            <h6>Ó</h6>
-            <button class=" btn btn-lightb">¡SE PARTE DE NUESTRO EQUIPO!</button>
+            <button class="btn btn-lightb buttons-bienvenida" id="welcome-register-button">¡EMPEZAR A TRUEQUEAR!</button>
+
+            <button class=" btn btn-lightb buttons-bienvenida">¡SE PARTE DE NUESTRO EQUIPO!</button>
         </div>
     </section>
-
-    <section id="registrerUser" class="registrer-User">
-            <h1>Registro</h1>
-            <input type="placeholder" id="registrerName" class="registrer-Name" placeholder="Ingresa tu nombre">
-            <input type="placeholder" id="registrerMail" class="registrer-Mail" placeholder="@">
-            <input type="password" id="registrerPassword" class="registrer-Password" placeholder="Contraseña 6 digitos">
-
-            <button id="registrerSend" class="registrer-Send">Registrate</button>
+    <!--Registro-->
+    <aside class="hide" id="registerSection">
+        <section id="registrerUser" class="registrer-User">
+            <h1 class="registro-text">Registro</h1>
+            <!--Usuario ingresa nombre-->
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">T</span>
+                </div>
+                <input type="text" class="form-control registrer-Name" placeholder="Ingresa tu nombre"
+                    aria-label="Username" aria-describedby="basic-addon1" id="registrerName">
+            </div>
+            <!--Usuario ingresa mail-->
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                </div>
+                <input type="text" class="form-control registrer-Mail" placeholder="@" aria-label="Username"
+                    aria-describedby="basic-addon1" id="registrerMail">
+            </div>
+            <!--Usuario ingresa contraseña-->
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">X</span>
+                </div>
+                <input type="password" class="form-control registrer-Mail" placeholder="Contraseña 6 digitos"
+                    aria-label="Username" aria-describedby="basic-addon1" id="registrerPassword">
+            </div>
+            <!--Botón para enviar el registro-->
+            <div class="registrer-send-button">
+                <button id="registrerSend" class="registrer-Send btn btn-lightb">Enviar</button>
+            </div>
+            <!--Datos del registro de tarjeta y cumpliiento de historia de usuario-->
+            <div>
+                <button class="btn btn-lightb" id="enter-databank">Ingresa tus datos bancarios</button>
+            </div>
         </section>
-
+    </aside>
+    <!--Inicio de sesion-->
+    <aside class="hide">
         <section id="loginUser" class="registrer-User">
             <h1>Inicio de sesión</h1>
             <input type="placeholder" id="loginrMail" class="login-Mail">
@@ -64,10 +94,14 @@
 
             <button id="loginSend" class="login-Send">Enviar</button>
         </section>
+    </aside>
 
-        <section id="screen2" class="screen-second">
-            <button id="logoutButton" class="logout-Button">Cerrar sesión</button>
-        </section>
+    <!--Cerrar sesión-->
+    <section class="hide">
+        <article id="screen2" class="screen-second">
+            <button id="logoutButton" class="logout-Button btn btn-lightb">Cerrar sesión</button>
+        </article>
+    </section>
 
     <!--Enlaces a bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
