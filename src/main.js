@@ -9,6 +9,22 @@ const buttonLogin = document.getElementById('loginSend');
 const screenRegistrer =document.getElementById('registrerUser');
 const screenLogin = document.getElementById('registrerUser');
 const buttonLogout = document.getElementById('logoutButton');
+//Vianey
+let welcomeRegister = document.getElementById('welcome-register-button').addEventListener('click', () =>{
+    Swal.fire({
+        title: '<i><img src="/img/user_imgb.png" alt="imgDeUsuario" width="100" height="auto"></i>',
+        html:
+          '<button class="btn btn-light"><img src="/img/google_icon-icons.com_62736.ico" title="Ingresa con Google" width="50" height="auto"></button>' + '<br>' +
+          '<button class="btn btn-light"><img src="/img/fb_icon-icons.com_66689.ico" title="Ingresa con Facebook" width="50" height="auto"></button>'+ '<br>' + '<br>' +
+          '<input type="email" placeholder="Email">' + '<br>' +
+          '<input type="password" placeholder="Password">' + '<br>'+ '¿Olvidaste tu contraseña?' + '<br>' + '<button class="btn-warning">Registrate</button>',
+        showCloseButton: true,
+        focusConfirm: false,
+        confirmButtonText:
+          '<i class="fa fa-thumbs-up"></i> Acceder!',
+        confirmButtonAriaLabel: 'Registrate!',
+      })
+});
 
 
 
@@ -90,3 +106,5 @@ const  getLogout= () =>{
     })
 }
 buttonLogout.addEventListener("click",getLogout);
+
+
