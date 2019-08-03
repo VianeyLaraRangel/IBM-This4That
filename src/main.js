@@ -51,7 +51,7 @@ const registrar = () => {
 }
 
 buttonRegistrer.addEventListener('click', (registrar)=> {
-    window.location="";
+    window.location="/src/feed.html";
 });
 
 
