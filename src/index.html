@@ -47,6 +47,15 @@
 
             <button class=" btn btn-lightb buttons-bienvenida">¡SE PARTE DE NUESTRO EQUIPO!</button>
         </div>
+        <!-- Link al feed
+        <a href="/src/feed.html"></a> -->
+        <div>
+            <h6>¿Ya tienes una cuenta? click <a href="#">aquí</a></h6>
+            <!--Botón para iniciar sesión-->
+            <div class="registrer-send-button" id="loginButton">
+                <button id="login-button" class="registrer-Send btn btn-lightb">Iniciar Sesión</button>
+            </div>
+        </div>
     </section>
     <!--Registro-->
     <aside class="hide" id="registerSection">
@@ -80,14 +89,15 @@
             <div class="registrer-send-button">
                 <button id="registrerSend" class="registrer-Send btn btn-lightb">Enviar</button>
             </div>
+            
             <!--Datos del registro de tarjeta y cumpliiento de historia de usuario-->
-            <div>
+            <div class="hide">
                 <button class="btn btn-lightb" id="enter-databank">Ingresa tus datos bancarios</button>
             </div>
         </section>
     </aside>
     <!--Inicio de sesion-->
-    <aside class="hide">
+    <aside class="hide" id="loginSectionFirst">
         <section id="loginUser" class="registrer-User">
             <h1>Inicio de sesión</h1>
             <input type="placeholder" id="loginrMail" class="login-Mail">

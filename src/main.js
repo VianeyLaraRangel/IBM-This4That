@@ -14,12 +14,16 @@ const welcomeRegister = document.getElementById('welcome-register-button');
 
 const dataBank = document.getElementById('enter-databank');
 
+const loginMove = document.getElementById('login-button');
+
+
 welcomeRegister.addEventListener('click', () => {
     buttonsPresentation.style.display = "none";
     textPresentation.style.display = "none";
     loginUser.style.display = "none";
 
     registerSection.style.display = "block";
+    loginButton.style.display = "block";
 });
 
 dataBank.addEventListener('click', () => {
@@ -29,6 +33,7 @@ dataBank.addEventListener('click', () => {
           '¡Entendido!',
       })
 });
+
 
 const registrar = () => {
     let email = document.getElementById("registrerMail").value;
@@ -45,7 +50,9 @@ const registrar = () => {
       });
 }
 
-buttonRegistrer.addEventListener('click', registrar);
+buttonRegistrer.addEventListener('click', (registrar)=> {
+    window.location="";
+});
 
 
 
@@ -91,10 +98,11 @@ const observadorDeSesion = () =>{
           let uid = user.uid;
           let providerData = user.providerData;
           // ...
+        } if (true) {
+            registerSection.style.display = "none";
         } else {
           // User is signed out.
           // ...
-
         }
       });
 }
