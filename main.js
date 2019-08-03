@@ -17,6 +17,7 @@ const registrar = () => {
 }
 
 
+
 const ingresar = () =>{
     let mail2 = document.getElementById("email-login").value;
     let password2 = document.getElementById("password-login").value;

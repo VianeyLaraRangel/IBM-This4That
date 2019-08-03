@@ -1,0 +1,22 @@
+{
+  "name": "ibm-this4that",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anabahena/IBM-This4That.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anabahena/IBM-This4That/issues"
+  },
+  "homepage": "https://github.com/anabahena/IBM-This4That#readme",
+  "dependencies": {
+    "firebase": "^6.3.4"
+  }
+}
