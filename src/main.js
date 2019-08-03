@@ -21,7 +21,6 @@ welcomeRegister.addEventListener('click', () => {
     buttonsPresentation.style.display = "none";
     textPresentation.style.display = "none";
     loginUser.style.display = "none";
-
     registerSection.style.display = "block";
     loginButton.style.display = "block";
 });
