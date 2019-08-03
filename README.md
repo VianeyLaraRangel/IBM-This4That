@@ -1,11 +1,15 @@
 <!--Desarrollar la propuesta de arquitectura, roadmap de seguridad y resumen de la solución-->
 # This4That
 
+
+<div style="text-align:center"><img src="img/logo.png"></div>
+
 ## Índice
 
 * [1. Propuesta de arquitectura](#1-arquitectura)
 * [2. Roadmap de seguridad](#2-roadmap-de-seguridad)
 * [3. Resumen de la solución](#3-solución)
+* [4. UserPersona](#4-UserPersona)
 
 ***
 
@@ -56,6 +60,9 @@ Las redes sociales han invadido nuestras vidas. Las amamos u odiamos, y muchos n
 Pueden tener muchas funcionalidades integradas. 
 La solución a la problematica de Frida, emprendedora de Victoria 147, es crear una plataforma que favorezca el trueque entre particulares con tecnologías disruptivas y que permitan la transparencia de los intercambios con seguridad y velocidad.
 
+## 4. UserPersona
+
+<div style="text-align:center"><img src="img/userPersona.png"></div>
 
 # Entrenamiento inicial del Chatbot
 
@@ -132,5 +139,3 @@ Link del Chatbot:
 
 
 https://assistant-chat-us-south.watsonplatform.net/web/public/19752491-aadf-4172-8067-1350d5f4ed01
-
-
