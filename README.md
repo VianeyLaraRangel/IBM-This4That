@@ -1,8 +1,8 @@
 <!--Desarrollar la propuesta de arquitectura, roadmap de seguridad y resumen de la solución-->
-# This4That
-
 
 <div style="text-align:center"><img src="img/logo.png"></div>
+
+![Logo](https://vianeylararangel.github.io/IBM-This4That/img/This4that%20(1).png)
 
 ## Índice
 
