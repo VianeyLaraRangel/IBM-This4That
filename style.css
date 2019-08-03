@@ -1,4 +1,23 @@
 .screenRegistrer, .screenLogin{
     display: none;
 }
+/*Primera pantalla*/
+/*Barra de navegación*/
+.navbar {
+    background-color: #EC4C4C;
+    height: 3em;
+}
+
+.hide {
+    display: none;
+}
+/*Primera sección (logo)*/
+.principal-screen {
+    display: flex;
+    justify-content: center;
+}
+/*Segunda sección (texto)*/
+.description-box {
+    margin: 1em 3em 1em 3em;
+}
 
