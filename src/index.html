@@ -42,9 +42,9 @@
             </p>
         </p>
         <div>
-            <button class="btn btn-light" id="welcome-register-button">¡EMPEZAR A TRUEQUEAR!</button>
+            <button class="btn btn-lightb" id="welcome-register-button">¡EMPEZAR A TRUEQUEAR!</button>
             <h6>Ó</h6>
-            <button class=" btn btn-light">¡SE PARTE DE NUESTRO EQUIPO!</button>
+            <button class=" btn btn-lightb">¡SE PARTE DE NUESTRO EQUIPO!</button>
         </div>
     </section>
 
@@ -63,34 +63,34 @@
         crossorigin="anonymous"></script>
     <!--Añadiendo enlaces a sweetalert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <!--Añadiendo firebase-->
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBmlQGC9FOiDheX9xN3b4LFJZ6aSUdhrhc",
+            authDomain: "this4that-94c08.firebaseapp.com",
+            databaseURL: "https://this4that-94c08.firebaseio.com",
+            projectId: "this4that-94c08",
+            storageBucket: "",
+            messagingSenderId: "77858775476",
+            appId: "1:77858775476:web:3efab5c4f829c0c7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
 
     <body>
-        <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
-        <script>
-            // Your web app's Firebase configuration
-            var firebaseConfig = {
-                apiKey: "AIzaSyBmlQGC9FOiDheX9xN3b4LFJZ6aSUdhrhc",
-                authDomain: "this4that-94c08.firebaseapp.com",
-                databaseURL: "https://this4that-94c08.firebaseio.com",
-                projectId: "this4that-94c08",
-                storageBucket: "",
-                messagingSenderId: "77858775476",
-                appId: "1:77858775476:web:3efab5c4f829c0c7"
-            };
-            // Initialize Firebase
-            firebase.initializeApp(firebaseConfig);
-        </script>
-
-        <section id="registrerUser" class="registrer-User">
+    
+        <!-- <section id="registrerUser" class="registrer-User">
             <h1>Registro</h1>
-            <input type="placeholder" id="registrerName" class="registrer-Name">
-            <input type="placeholder" id="registrerMail" class="registrer-Mail">
-            <input type="placeholder" id="registrerPassword" class="registrer-Password">
+            <input type="placeholder" id="registrerName" class="registrer-Name" placeholder="Ingresa tu nombre">
+            <input type="placeholder" id="registrerMail" class="registrer-Mail" placeholder="@">
+            <input type="password" id="registrerPassword" class="registrer-Password" placeholder="Contraseña 6 digitos">
 
-            <button id="registrerSend" class="registrer-Send">Enviar</button>
+            <button id="registrerSend" class="registrer-Send">Registrate</button>
 
-        </section>
-
+        </section> -->
         <section id="registrerUser" class="registrer-User">
             <h1>Inicio de sesión</h1>
             <input type="placeholder" id="loginrMail" class="login-Mail">
