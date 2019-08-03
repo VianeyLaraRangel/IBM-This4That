@@ -7,26 +7,28 @@ const loginrMail = document.getElementById('loginrMail');
 const loginPassword = document.getElementById('loginPassword');
 const buttonLogin = document.getElementById('loginSend');
 const screenRegistrer =document.getElementById('registrerUser');
-const screenLogin = document.getElementById('registrerUser');
+const screenLogin = document.getElementById('loginUser');
 const buttonLogout = document.getElementById('logoutButton');
-//Vianey
-let welcomeRegister = document.getElementById('welcome-register-button').addEventListener('click', () =>{
-    Swal.fire({
-        title: '<i><img src="/img/user_imgb.png" alt="imgDeUsuario" width="100" height="auto"></i>',
-        html:
-          '<button class="btn btn-light"><img src="/img/google_icon-icons.com_62736.ico" title="Ingresa con Google" width="50" height="auto"></button>' + '<br>' +
-          '<button class="btn btn-light"><img src="/img/fb_icon-icons.com_66689.ico" title="Ingresa con Facebook" width="50" height="auto"></button>'+ '<br>' + '<br>' +
-          '<input type="email" placeholder="Email">' + '<br>' +
-          '<input type="password" placeholder="Password">' + '<br>'+ '¿Olvidaste tu contraseña?' + '<br>' + '<button class="btn-warning">Registrate</button>',
-        showCloseButton: true,
-        focusConfirm: false,
-        confirmButtonText:
-          '<i class="fa fa-thumbs-up"></i> Acceder!',
-        confirmButtonAriaLabel: 'Registrate!',
-      })
+//Vianey pantalla de bienvenida
+const welcomeRegister = document.getElementById('welcome-register-button');
+
+const dataBank = document.getElementById('enter-databank');
+
+welcomeRegister.addEventListener('click', () => {
+    buttonsPresentation.style.display = "none";
+    textPresentation.style.display = "none";
+    loginUser.style.display = "none";
+
+    registerSection.style.display = "block";
 });
 
-
+dataBank.addEventListener('click', () => {
+    Swal.fire({
+        title: '<img src="/img/registroTarjeta.png" alt="imagenTarjeta" class="img-fluid registrer-Send" alt="Responsive image">',
+        confirmButtonText:
+          '¡Entendido!',
+      })
+});
 
 const registrar = () => {
     let email = document.getElementById("registrerMail").value;
@@ -75,15 +77,19 @@ buttonLogin.addEventListener('click', ingresar);
 const observadorDeSesion = () =>{
     firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
-            alert("¡Tu registro ha sido exitoso!");
+            Swal.fire(
+                '¡Bienvenido!',
+                '¡Registro completado!',
+                'success'
+              )
           // User is signed in.
-          var displayName = user.displayName;
-          var email = user.email;
-          var emailVerified = user.emailVerified;
-          var photoURL = user.photoURL;
-          var isAnonymous = user.isAnonymous;
-          var uid = user.uid;
-          var providerData = user.providerData;
+          let displayName = user.displayName;
+          let email = user.email;
+          let emailVerified = user.emailVerified;
+          let photoURL = user.photoURL;
+          let isAnonymous = user.isAnonymous;
+          let uid = user.uid;
+          let providerData = user.providerData;
           // ...
         } else {
           // User is signed out.
