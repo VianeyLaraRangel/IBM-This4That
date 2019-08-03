@@ -57,7 +57,7 @@ Pueden tener muchas funcionalidades integradas.
 La solución a la problematica de Frida, emprendedora de Victoria 147, es crear una plataforma que favorezca el trueque entre particulares con tecnologías disruptivas y que permitan la transparencia de los intercambios con seguridad y velocidad.
 
 
-#Entrenamiento inicial del Chatbot
+# Entrenamiento inicial del Chatbot
 
 Para entrenar el Chatbot se crearón intenciones que son las posibles consultas que hará el usuario. Tambien se crearon nodos de dialogo que es lo que que el chatbot va a responder al usuario dependiendo la pregunta de este.
 
