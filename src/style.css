@@ -50,6 +50,14 @@
 }
 
 .navbar-brand {
-    background-color: aliceblue;
+    background-color: white;
 }
 
+.navbar-expand-lg {
+    height: 3em;
+    background-color: #EC4C4C;
+}
+
+.nav.bg-light {
+    background-color: #EC4C4C !important;
+}
