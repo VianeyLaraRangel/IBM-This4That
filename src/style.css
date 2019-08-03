@@ -42,3 +42,9 @@
 .hide {
     display: none;
 }
+
+.section-select {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+}
