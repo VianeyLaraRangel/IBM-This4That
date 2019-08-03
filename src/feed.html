@@ -21,110 +21,20 @@
         <!--Barra de navegación-->
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="/img/logo.png" width="100" height="auto" alt="logo-thisforthat">
+                <img src="https://vianeylararangel.github.io/IBM-This4That/img/logo.png" width="100" height="auto"
+                    alt="logo-thisforthat">
             </a>
-            <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div>
+                <form class="form">
+                    <input class="form-control" type="search" placeholder="Busca producto/servicios" aria-label="Search">
+                    <button class="btn btn-lightb my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+            </div>
         </nav>
     </header>
-    <section class="principal-screen">
-        <img src="/img/logo.png" class="img-fluid-logo" alt="Responsive image" max-width="100" height="auto"
-            alt="logo-thisforthat">
-    </section>
 
-    <section id="textPresentation" class="description-box text-justify text-center">
-        <p>
-            ¿Tienes el closet lleno de ropa, zapatos y accesorios que nunca usas? ¿Tienes cosas nuevas o seminuevas
-            que
-            jamás va a utilizar? o ¿Te gustaría adquirir un producto a cambio de un servicio?
-            <p>
-                Para resolver todos tus problemas hemos creado <strong>This 4 That</strong>, una aplicación en la cual
-                podrás adquirir
-                algún
-                producto nuevo a cambio de otro producto/servicio.
-            </p>
-        </p>
-        <div id="buttonsPresentation">
-            <button class="btn btn-lightb buttons-bienvenida" id="welcome-register-button">¡EMPEZAR A
-                TRUEQUEAR!</button>
 
-            <button class=" btn btn-lightb buttons-bienvenida">¡SE PARTE DE NUESTRO EQUIPO!</button>
-        </div>
-        <!-- Link al feed
-        <a href="/src/feed.html"></a> -->
-        <div>
-            <h6>¿Ya tienes una cuenta? click <a href="#">aquí</a></h6>
-            <!--Botón para iniciar sesión-->
-            <div class="registrer-send-button" id="loginButton">
-                <button id="login-button" class="registrer-Send btn btn-lightb">Iniciar Sesión</button>
-            </div>
-        </div>
-    </section>
-    <!--Registro-->
-    <aside class="hide" id="registerSection">
-        <section id="registrerUser" class="registrer-User">
-            <h1 class="registro-text">Registro</h1>
-            <!--Usuario ingresa nombre-->
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">T</span>
-                </div>
-                <input type="text" class="form-control registrer-Name" placeholder="Ingresa tu nombre"
-                    aria-label="Username" aria-describedby="basic-addon1" id="registrerName">
-            </div>
-            <!--Usuario ingresa mail-->
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">@</span>
-                </div>
-                <input type="text" class="form-control registrer-Mail" placeholder="@" aria-label="Username"
-                    aria-describedby="basic-addon1" id="registrerMail">
-            </div>
-            <!--Usuario ingresa contraseña-->
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">X</span>
-                </div>
-                <input type="password" class="form-control registrer-Mail" placeholder="Contraseña 6 digitos"
-                    aria-label="Username" aria-describedby="basic-addon1" id="registrerPassword">
-            </div>
-            <!--Botón para enviar el registro-->
-            <div class="registrer-send-button">
-                <button id="registrerSend" class="registrer-Send btn btn-lightb">Enviar</button>
-            </div>
 
-            <!--Datos del registro de tarjeta y cumpliiento de historia de usuario-->
-            <div class="hide">
-                <button class="btn btn-lightb" id="enter-databank">Ingresa tus datos bancarios</button>
-            </div>
-        </section>
-    </aside>
-    <!--Inicio de sesion-->
-    <aside class="hide" id="loginSectionFirst">
-        <section id="loginUser" class="registrer-User">
-            <h1>Inicio de sesión</h1>
-            <input type="placeholder" id="loginrMail" class="login-Mail">
-            <input type="placeholder" id="loginPassword" class="login-Password">
-
-            <button id="loginSend" class="login-Send">Enviar</button>
-        </section>
-    </aside>
-
-    <!--Cerrar sesión-->
-    <section class="hide">
-        <article id="screen2" class="screen-second">
-            <button id="logoutButton" class="logout-Button btn btn-lightb">Cerrar sesión</button>
-        </article>
-    </section>
-
-    <!--Link a chatbot-->
-    <section id="link Chatbot" class="hide">
-        <p>Link Chatbot</p>
-        <a href="https://assistant-chat-us-south.watsonplatform.net/web/public/19752491-aadf-4172-8067-1350d5f4ed01">Click
-            aqui para desplegar el Chatbot</a>
-    </section>
 
     <!--Enlaces a bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

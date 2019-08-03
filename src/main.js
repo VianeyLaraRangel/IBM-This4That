@@ -51,7 +51,7 @@ const registrar = () => {
 }
 
 buttonRegistrer.addEventListener('click', (registrar)=> {
-    window.location="/src/feed.html";
+    window.location="/IBM-This4That/src/feed.html";
 });
 
 
