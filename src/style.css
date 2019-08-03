@@ -62,3 +62,10 @@ nav.bg-light {
     background-color: #EC4C4C !important;
     height: auto;
 }
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1em;
+}
