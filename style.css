@@ -1,4 +1,4 @@
-.login-Screen{
+.screenRegistrer, .screenLogin{
     display: none;
 }
 /*Primera pantalla*/
@@ -20,3 +20,4 @@
 .description-box {
     margin: 1em 3em 1em 3em;
 }
+

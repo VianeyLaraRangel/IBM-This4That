@@ -1,11 +1,22 @@
 
+const registrerName = document.getElementById('registrerName');
+const registrerMail = document.getElementById('registrerMail');
+const registrerPassword = document.getElementById('registrerPassword');
+const buttonRegistrer = document.getElementById('registrerSend');
+const loginrMail = document.getElementById('loginrMail');
+const loginPassword = document.getElementById('loginPassword');
+const buttonLogin = document.getElementById('loginSend');
+const screenRegistrer =document.getElementById('registrerUser');
+const screenLogin = document.getElementById('registrerUser');
+const buttonLogout = document.getElementById('logoutButton');
+
+
 
 const registrar = () => {
-    let mail = document.getElementById("email-registro").value;
-    let password = document.getElementById("password-registro").value;
+    let email = document.getElementById("registrerMail").value;
+    let password = document.getElementById("registrerPassword").value;
 
-    firebase.auth().createUserWithEmailAndPassword(mail, password)
-    /*.then(verificar())*/
+    firebase.auth().createUserWithEmailAndPassword(email, password)
     .catch((error) => {
         // Handle Errors here.
         var errorCode = error.code;
@@ -16,13 +27,17 @@ const registrar = () => {
       });
 }
 
+buttonRegistrer.addEventListener('click', registrar);
+
+
+
 
 const ingresar = () =>{
-    let mail2 = document.getElementById("email-login").value;
-    let password2 = document.getElementById("password-login").value;
+    let loginrMail = document.getElementById("loginrMail").value;
+    let loginPassword = document.getElementById("loginPassword").value;
 
-    firebase.auth().signInWithEmailAndPassword(mail2, password2)
-    .then(muro())
+    firebase.auth().signInWithEmailAndPassword(loginrMail, loginPassword)
+    .then(getSecondSection())
     .catch(function(error) {
         // Handle Errors here.
         var errorCode = error.code;
@@ -33,10 +48,18 @@ const ingresar = () =>{
       });
 }
 
+const getSecondSection = () =>{
+    screenRegistrer.style.display = "none";
+    screenLogin.style.display = "none";
+    screen2.style.display = "block";
+}
+
+buttonLogin.addEventListener('click', ingresar);
+
 const observadorDeSesion = () =>{
     firebase.auth().onAuthStateChanged(function(user) {
         if (user) {
-            console.log("existe usuario activo");
+            alert("¡Tu registro ha sido exitoso!");
           // User is signed in.
           var displayName = user.displayName;
           var email = user.email;
@@ -49,14 +72,13 @@ const observadorDeSesion = () =>{
         } else {
           // User is signed out.
           // ...
-          console.log("no exite usuario activo");
+
         }
       });
 }
-
 observadorDeSesion();
 
-const cerrarSesion = () =>{
+const  getLogout= () =>{
     firebase.auth().signOut()
     .then( () => {
         console.log("sesion cerrada");
@@ -66,3 +88,4 @@ const cerrarSesion = () =>{
         console.log(errorMessage);
     })
 }
+buttonLogout.addEventListener("click",getLogout);

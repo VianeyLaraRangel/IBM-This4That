@@ -11,6 +11,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Enlace a firebase-->
     <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>This4That</title>
 </head>
 
@@ -53,6 +54,57 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+  
+
+<body>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-auth.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBmlQGC9FOiDheX9xN3b4LFJZ6aSUdhrhc",
+    authDomain: "this4that-94c08.firebaseapp.com",
+    databaseURL: "https://this4that-94c08.firebaseio.com",
+    projectId: "this4that-94c08",
+    storageBucket: "",
+    messagingSenderId: "77858775476",
+    appId: "1:77858775476:web:3efab5c4f829c0c7"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<section id="registrerUser" class="registrer-User">
+    <h1>Registro</h1>
+<input type="placeholder"  id="registrerName" class="registrer-Name">
+<input type="placeholder"  id="registrerMail" class="registrer-Mail">
+<input type="placeholder"  id="registrerPassword" class="registrer-Password">
+
+<button id="registrerSend" class="registrer-Send">Enviar</button>
+
+</section>
+
+<section id="registrerUser" class="registrer-User">
+    <h1>Inicio de sesión</h1>
+        <input type="placeholder"  id="loginrMail" class="login-Mail">
+        <input type="placeholder"  id="loginPassword" class="login-Password">
+        
+        <button id="loginSend" class="login-Send">Enviar</button>
+        
+</section>
+
+<section id="screen2" class="screen-second">
+<button id="logoutButton" class="logout-Button">Cerrar sesión</button>
+
+
+</section>
+        
+    
+<script type="module" src="main.js"></script>
+
+<!--Enlaces a bootstrap-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
 </body>
 
 </html>
