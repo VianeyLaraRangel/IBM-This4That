@@ -67,6 +67,7 @@ Algunas consultas con las que se entrenó al chatbot:
 
 posibles preguntas de usuario:
 -Como saber el precio de mi producto servicio
+
 -Dime donde calculo el precio de mi producto.
 
 Respuesta del chatbot:
@@ -77,6 +78,7 @@ Usa el formulario que se encuentra en la sección "Calcula el precio de tu trueq
 
 Posibles preguntas del usuario:
 -como adquiero mi tarjeta virtual
+
 -¿Donde puedo conseguir mi tarjeta virtual?
 
 Respuesta del Chatbot:
@@ -87,6 +89,7 @@ Ingresa a la sección "Mi tarjeta virtual" en el menú desplegable de la pantall
 
 Posibles preguntas del usuario:
 -Que pasa si el producto o servicio no era lo que yo esperaba.
+
 -Que pasa si el servicio no es lo que ofrecian en la pagina.
 
 Respuesta del Chatbot:
@@ -96,6 +99,7 @@ Ingresa a la sección "Producto y/o servicio insatisfecho" en el menú desplegab
 
 Posibles preguntas del usuario:
 -Cual es el precio de la suscripción para unirme al equipo de this 4 that.
+
 -Debo forzosamente tener auto para hacer entregas?
 
 Respuesta del Chatbot:
@@ -106,6 +110,7 @@ Ve a la sección de ayuda en el menú desplegable y selecciona la parte "dudas e
 
 Posibles preguntas del usuario:
 -¿Es necesario adquirir cosas solo con el trueque o tambien puedo comprarlas?
+
 -Que hago si no tengo un producto para intercambiar pero si dinero?
 
 Respuesta del Chatbot:
