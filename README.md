@@ -66,6 +66,7 @@ Algunas consultas con las que se entrenó al chatbot:
 1. Duda Calcular Precio
 
 posibles preguntas de usuario:
+
 -Como saber el precio de mi producto servicio
 
 -Dime donde calculo el precio de mi producto.
@@ -74,9 +75,11 @@ Respuesta del chatbot:
 
 Usa el formulario que se encuentra en la sección "Calcula el precio de tu trueque"
 
+
 2. Duda como conseguir tarjeta virtual.
 
 Posibles preguntas del usuario:
+
 -como adquiero mi tarjeta virtual
 
 -¿Donde puedo conseguir mi tarjeta virtual?
@@ -85,35 +88,43 @@ Respuesta del Chatbot:
 
 Ingresa a la sección "Mi tarjeta virtual" en el menú desplegable de la pantalla de inicio de nuestra pagina.
 
+
 3. Duda producto y/o servicio insatisfecho.
 
 Posibles preguntas del usuario:
+
 -Que pasa si el producto o servicio no era lo que yo esperaba.
 
 -Que pasa si el servicio no es lo que ofrecian en la pagina.
 
 Respuesta del Chatbot:
+
 Ingresa a la sección "Producto y/o servicio insatisfecho" en el menú desplegable de la pantalla de inicio de la pagina.
+
 
 4. Dudas unirme al equipo de T4T.
 
 Posibles preguntas del usuario:
+
 -Cual es el precio de la suscripción para unirme al equipo de this 4 that.
 
 -Debo forzosamente tener auto para hacer entregas?
 
 Respuesta del Chatbot:
+
 Ve a la sección de ayuda en el menú desplegable y selecciona la parte "dudas equipo T4T". Ahi encontraras todo lo relacionado a el equipo.
 
 
 5. Duda pagar intercambio con dinero.
 
 Posibles preguntas del usuario:
+
 -¿Es necesario adquirir cosas solo con el trueque o tambien puedo comprarlas?
 
 -Que hago si no tengo un producto para intercambiar pero si dinero?
 
 Respuesta del Chatbot:
+
 Eso depende del usuario con el que deseas hacer el intercambio. Eso lo podrás consultar en su perfil.
 
 
