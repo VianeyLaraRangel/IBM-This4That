@@ -12,6 +12,7 @@ const buttonLogout = document.getElementById('logoutButton');
 
 
 
+
 const registrar = () => {
     let email = document.getElementById("registrerMail").value;
     let password = document.getElementById("registrerPassword").value;

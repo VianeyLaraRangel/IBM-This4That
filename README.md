@@ -61,6 +61,7 @@ La solución a la problematica de Frida, emprendedora de Victoria 147, es crear 
 
 Para entrenar el Chatbot se crearón intenciones que son las posibles consultas que hará el usuario. Tambien se crearon nodos de dialogo que es lo que que el chatbot va a responder al usuario dependiendo la pregunta de este.
 
+
 Algunas consultas con las que se entrenó al chatbot:
 
 1. Duda Calcular Precio
