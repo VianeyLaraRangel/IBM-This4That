@@ -16,7 +16,7 @@ const dataBank = document.getElementById('enter-databank');
 
 dataBank.addEventListener('click', () => {
     Swal.fire({
-        title: '<img src="/img/registroTarjeta.png" alt="imagenTarjeta" class="img-fluid registrer-Send" alt="Responsive image">',
+        title: '<img src="https://vianeylararangel.github.io/IBM-This4That/img/registroTarjeta.png" alt="imagenTarjeta" class="img-fluid registrer-Send" alt="Responsive image">',
         confirmButtonText:
           '¡Entendido!',
       })
