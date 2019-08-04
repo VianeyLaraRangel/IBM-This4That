@@ -14,6 +14,15 @@ const welcomeRegister = document.getElementById('welcome-register-button');
 
 const dataBank = document.getElementById('enter-databank');
 
+dataBank.addEventListener('click', () => {
+    Swal.fire({
+        title: '<img src="/img/registroTarjeta.png" alt="imagenTarjeta" class="img-fluid registrer-Send" alt="Responsive image">',
+        confirmButtonText:
+          '¡Entendido!',
+      })
+});
+
+
 const loginMove = document.getElementById('login-button');
 
 
@@ -25,13 +34,6 @@ welcomeRegister.addEventListener('click', () => {
     loginButton.style.display = "block";
 });
 
-dataBank.addEventListener('click', () => {
-    Swal.fire({
-        title: '<img src="/img/registroTarjeta.png" alt="imagenTarjeta" class="img-fluid registrer-Send" alt="Responsive image">',
-        confirmButtonText:
-          '¡Entendido!',
-      })
-});
 
 
 const registrar = () => {
