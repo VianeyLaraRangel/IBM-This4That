@@ -5,6 +5,8 @@
 
 ![Logo](https://vianeylararangel.github.io/IBM-This4That/img/This4that%20(1).png)
 
+[Prototipo](https://www.figma.com/proto/vOuaDUeJmktghFQ4MIhqJA/THIS4THAT?node-id=20%3A2&scaling=scale-down)
+
 ## Índice
 
 * [1. Propuesta de arquitectura](#1-arquitectura)
